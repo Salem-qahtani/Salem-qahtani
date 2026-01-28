@@ -26,7 +26,6 @@ Mainly focused on backend development, problem-solving, and writing clean, maint
 - Taking courses in full-stack development
 - Building small projects to strengthen problem-solving and system design skills
 
----
 
 
 

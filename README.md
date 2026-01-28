@@ -30,7 +30,7 @@ Mainly focused on backend development, problem-solving, and writing clean, maint
 
 ### 📫 Contact
 - Email: salem.aqahtani8@gmail.com
-- LinkedIn: https://linkedin.com
+- LinkedIn: https://www.linkedin.com/in/salem-al-qahtani-417369371/
 
 
 <!--

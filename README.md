@@ -1,19 +1,18 @@
-👋 Hey, I'm Salem
+# 👋 Hey, I'm Salem
 
-Software Engineering student who enjoys building software and understanding how systems are designed and structured.
-Mainly focused on backend development, problem-solving, and writing clean, maintainable code.
+Software Engineering student, building my way through full-stack web development. Currently working through [The Odin Project](https://www.theodinproject.com/) Full Stack JavaScript path — focused on writing clean code, solving problems, and building projects from scratch.
 
 ---
 
-### 🛠 Skills & Focus
-- Java development
-- Backend systems
-- Data structures & algorithms
-- Object-oriented design
+### 🛠 Skills & Tools
+
+- **Languages:** JavaScript, HTML, CSS, Java
+- **Frontend:** Flexbox, CSS Grid, DOM Manipulation
+- **Tools:** VS Code, Git, GitHub, GitHub Pages
 
 ---
 
 ### 🌱 Currently
-- Improving my software development fundamentals
-- Taking courses in full-stack development
-- Building small projects to strengthen system design and problem-solving skills
+
+- Working through The Odin Project — Full Stack JavaScript path
+- Building portfolio projects with vanilla JavaScript

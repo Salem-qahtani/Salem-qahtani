@@ -8,7 +8,7 @@ Software Engineering student, building my way through full-stack web development
 
 - **Languages:** JavaScript, HTML, CSS, Java
 - **Frontend:** Flexbox, CSS Grid, DOM Manipulation
-- **Tools:** VS Code, Git, GitHub
+- **Tools:** VS Code, Git, GitHub, Netlify
 
 ---
 

@@ -75,7 +75,6 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
 - **Languages:** JavaScript, HTML, CSS, Java, C
 - **Frontend:** Flexbox, CSS Grid, DOM Manipulation, Responsive Design
 - **Tools:** VS Code, Git, GitHub, Netlify, MySQL Workbench
-- **Systems:** Arch Linux, Hyprland
 
 ---
 

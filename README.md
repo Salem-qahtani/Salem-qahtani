@@ -58,7 +58,7 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
   &nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/html5/E34F26" width="45" height="45"/>
   &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/css3/1572B6" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45"/>
   &nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/openjdk/ED8B00" width="45" height="45"/>
   &nbsp;&nbsp;
@@ -66,7 +66,7 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
   &nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/github/white" width="45" height="45"/>
   &nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" width="45" height="45"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/>
   &nbsp;&nbsp;
   <img src="https://cdn.simpleicons.org/netlify/00C7B7" width="45" height="45"/>
 </p>

@@ -54,7 +54,21 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
 ## 🛠️ Tech Stack & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,html,css,java,git,github,vscode,netlify" />
+  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="45" height="45"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/html5/E34F26" width="45" height="45"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/css3/1572B6" width="45" height="45"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/openjdk/ED8B00" width="45" height="45"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/git/F05032" width="45" height="45"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/white" width="45" height="45"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/visualstudiocode/007ACC" width="45" height="45"/>
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/netlify/00C7B7" width="45" height="45"/>
 </p>
 
 ---

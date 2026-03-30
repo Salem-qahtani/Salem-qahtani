@@ -77,7 +77,6 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Salem-qahtani&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Salem-qahtani&theme=tokyonight&hide_border=true" />
 </div>
 
 ---

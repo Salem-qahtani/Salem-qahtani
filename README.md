@@ -55,9 +55,20 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
 
 ## 🛠️ Tech Stack & Tools
 
-<p align="center">
-  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="45" height="45"/>&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/html5/E34F26" width="45" height="45"/>&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45"/>&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45"/>&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/git/F05032" width="45" height="45"/>&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/github/white" width="45" height="45"/>&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/>&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/netlify/00C7B7" width="45" height="45"/>
-</p>
+<div align="center">
+<table>
+<tr>
+<td align="center"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/html5/E34F26" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/git/F05032" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/github/white" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/netlify/00C7B7" width="45" height="45"/></td>
+</tr>
+</table>
+</div>
 
 ---
 

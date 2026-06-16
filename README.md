@@ -26,17 +26,19 @@ I enjoy breaking down problems, building projects from scratch, and learning by 
 ## 🚀 Featured Projects
 
 
-### 🧮 [Calculator](https://github.com/Salem-qahtani/Calculator)
-A browser-based calculator that tokenizes and evaluates full mathematical expressions with proper operator precedence.
-- **Built With:** JavaScript, HTML, CSS Grid
-- **Features:** Custom expression parser, decimal/percent handling, backspace, division by zero protection
-
+### 🎬 [Abdulrahman — Motion Designer Portfolio](https://github.com/Salem-qahtani/abdelrhman-potofolio)
+A cinematic dark-themed portfolio site built for a freelance client (3D motion designer & video editor). End-to-end delivery: design, development, and deployment.
+- **Built With:** React 18, Vite 5, CSS Modules, Cloudinary
+- **Features:** Animated particle backdrop, inline video playback, floating glass-pill navbar, scroll-reveal animations, responsive design
+- **Live:** [abdelrhman-potofolio.netlify.app](https://abdelrhman-potofolio.netlify.app/)
+  
 ---
 
 ### 🎨 [Etch-a-Sketch](https://github.com/Salem-qahtani/Etch-a-Sketch)
 A browser-based drawing pad with a resizable grid, random colors, and progressive shading.
 - **Built With:** JavaScript, HTML, CSS
 - **Features:** Dynamic grid resizing, color modes, DOM manipulation
+-  **Live:** [salem-qahtani.github.io/Etch-a-Sketch](https://salem-qahtani.github.io/Etch-a-Sketch/)
 
 ---
 
@@ -60,6 +62,11 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
 <td align="center"><img src="https://cdn.simpleicons.org/github/white" width="45" height="45"/></td>
 <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/></td>
 <td align="center"><img src="https://cdn.simpleicons.org/netlify/00C7B7" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/typescript/3178C6" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/railway/0B0D0E" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/cloudflare/F38020" width="45" height="45"/></td>
+<td align="center"><img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" width="45" height="45"/></td>
 </tr>
 </table>
 </div>
@@ -68,9 +75,8 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
 
 ## 🔧 Core Skills
 
-- **Languages:** JavaScript, HTML, CSS, Java, C
-- **Frontend:** Flexbox, CSS Grid, DOM Manipulation, Responsive Design
-- **Tools:** VS Code, Git, GitHub, Netlify, MySQL Workbench
+- **Languages:** JavaScript, HTML, CSS, Java, TypeScript, MySQL
+- **Tools:** VS Code, Git, GitHub, Node.js, Netlify, Railway, Cloudflare
 
 ---
 

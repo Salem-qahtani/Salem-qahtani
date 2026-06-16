@@ -25,12 +25,6 @@ I enjoy breaking down problems, building projects from scratch, and learning by 
 
 ## 🚀 Featured Projects
 
-### 🌤️ [Weather App](https://github.com/Salem-qahtani/Weather-App)
-A real-time weather app that fetches live weather data from the OpenWeather API and displays it in a clean, styled card.
-- **Built With:** JavaScript, HTML, CSS
-- **Features:** City search, temperature (°C), humidity, weather description, dynamic weather icons, error handling
-
----
 
 ### 🧮 [Calculator](https://github.com/Salem-qahtani/Calculator)
 A browser-based calculator that tokenizes and evaluates full mathematical expressions with proper operator precedence.

@@ -75,7 +75,7 @@ A Java implementation of an AVL Tree with supporting data structures and sample 
 
 ## 🔧 Core Skills
 
-- **Languages:** JavaScript, HTML, CSS, Java, TypeScript, MySQL
+- **Languages:** Java, HTML, CSS, JavaScript, TypeScript,  MySQL
 - **Tools:** VS Code, Git, GitHub, Node.js, Netlify, Railway, Cloudflare
 
 ---

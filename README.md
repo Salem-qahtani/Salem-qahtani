@@ -1,86 +1,184 @@
+<!--
+  GitHub Profile README — Salem Al-Qahtani (@Salem-qahtani)
+  Still to fill in (search for these tokens):
+    PORTFOLIO_URL, EMAIL    -> your portfolio link and email (header + Connect)
+    STADIUMHUB_*            -> StadiumHub description, stack, and links
+    PORTFOLIO_LIVE_URL      -> the Netlify live URL for the motion designer site
+  Note: the About section still mentions "Applied AI/ML" — keep or remove to match your real focus.
+-->
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=250&section=header&text=Hi,%20I'm%20Salem%20Al-Qahtani&fontSize=50&fontColor=ffffff" width="100%"/>
-  <h3>Software Engineering Student | Full-Stack Web Dev | Problem Solver</h3>
-  <p align="center">
-    <a href="https://www.linkedin.com/in/salem-al-qahtani-417369371/">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-    </a>
-  </p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6D28D9,50:7C3AED,100:4F46E5&height=210&section=header&text=Salem%20Al-Qahtani&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Full-Stack%20Developer&descSize=18&descAlignY=56&animation=fadeIn" alt="header" />
+
+<a href="https://github.com/Salem-qahtani">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=23&duration=3000&pause=800&color=A855F7&center=true&vCenter=true&width=760&lines=Software+Engineering+Student+%40+King+Saud+University;Full-Stack+Developer+%7C+Real-Time+Systems;Building+production-grade+web+applications;Turning+complex+problems+into+clean+architecture" alt="typing" />
+</a>
+
+<br/>
+
+![King Saud University](https://img.shields.io/badge/King_Saud_University-Software_Engineering-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=1A1B27)
+![Riyadh](https://img.shields.io/badge/Riyadh,_Saudi_Arabia-4F46E5?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1A1B27)
+
+<br/>
+
+<a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" /></a>
+<a href="https://www.linkedin.com/in/salem-al-qahtani-417369371/"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+<a href="mailto:EMAIL"><img src="https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
+<a href="https://github.com/Salem-qahtani"><img src="https://img.shields.io/badge/GitHub-1A1B27?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
+
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> About
 
-I'm a **Software Engineering student** focused on building a strong foundation in **full-stack web development** and writing clean, maintainable code.
+> Software Engineering student at **King Saud University**, building production-grade, full-stack web applications with a product-engineering mindset.
 
-I enjoy breaking down problems, building projects from scratch, and learning by doing.
+- **Software engineering first** — I care about clean architecture, maintainable systems, and code that scales beyond the demo.
+- **Full-stack development** — end-to-end ownership across modern React / Next.js frontends and real-time TypeScript backends.
+- **Real-time & product engineering** — multiplayer systems, state synchronization, auth, and persistence designed for real users, not just localhost.
+- **Applied AI/ML** — actively expanding into applied machine learning and AI-assisted product features.
 
-- 🎓 Studying **B.Sc. in Software Engineering** at King Saud University
-- 🌱 Currently working through **The Odin Project** — Full Stack JavaScript path
-- 🛠️ Hands-on with real projects, not just theory
-- 🧠 Interested in **clean architecture, problem solving & frontend development**
-
----
-
-## 🚀 Featured Projects
-
-
-### 🎬 [Abdulrahman — Motion Designer Portfolio](https://github.com/Salem-qahtani/abdelrhman-potofolio)
-A cinematic dark-themed portfolio site built for a freelance client (3D motion designer & video editor). End-to-end delivery: design, development, and deployment.
-- **Built With:** React 18, Vite 5, CSS Modules, Cloudinary
-- **Features:** Animated particle backdrop, inline video playback, floating glass-pill navbar, scroll-reveal animations, responsive design
-- **Live:** [abdelrhman-potofolio.netlify.app](https://abdelrhman-potofolio.netlify.app/)
-  
----
-
-### 🎨 [Etch-a-Sketch](https://github.com/Salem-qahtani/Etch-a-Sketch)
-A browser-based drawing pad with a resizable grid, random colors, and progressive shading.
-- **Built With:** JavaScript, HTML, CSS
-- **Features:** Dynamic grid resizing, color modes, DOM manipulation
--  **Live:** [salem-qahtani.github.io/Etch-a-Sketch](https://salem-qahtani.github.io/Etch-a-Sketch/)
+**Open To** &nbsp;·&nbsp; Software Engineering Internships &nbsp;·&nbsp; Full-Stack / Frontend Roles &nbsp;·&nbsp; Open-Source Collaboration &nbsp;·&nbsp; Freelance Web Projects
 
 ---
 
-### 🌳 [AVL Tree — Data Structures](https://github.com/Salem-qahtani/data-structures-avl)
-A Java implementation of an AVL Tree with supporting data structures and sample usage.
-- **Built With:** Java, OOP, Data Structures
-- **Focus:** Self-balancing BST, rotations, traversal
-
----
-
-## 🛠️ Tech Stack & Tools
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eor/giphy.gif" width="28"> Tech Stack
 
 <div align="center">
-<table>
-<tr>
-<td align="center"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/html5/E34F26" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/git/F05032" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/github/white" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/netlify/00C7B7" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/typescript/3178C6" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/mysql/4479A1" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/railway/0B0D0E" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/cloudflare/F38020" width="45" height="45"/></td>
-<td align="center"><img src="https://cdn.simpleicons.org/nodedotjs/5FA04E" width="45" height="45"/></td>
-</tr>
-</table>
+
+**Languages**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=java,js,ts&theme=dark" alt="languages" />
+
+**Frontend**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=react,vite,html,css&theme=dark" alt="frontend" />
+
+**Backend &amp; Databases**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,postgres,mysql&theme=dark" alt="backend" />
+
+**Cloud, DevOps &amp; Tooling**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=cloudflare,netlify,railway,git,github,linux,vscode&theme=dark" alt="devops" />
+
 </div>
 
 ---
 
-## 🔧 Core Skills
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> Featured Projects
 
-- **Languages:** Java, HTML, CSS, JavaScript, TypeScript,  MySQL
-- **Tools:** VS Code, Git, GitHub, Node.js, Netlify, Railway, Cloudflare
+<details open>
+<summary><b>StadiumHub — STADIUMHUB_TAGLINE</b></summary>
+
+<br/>
+
+<!-- >>> EDIT: replace the bracketed fields with StadiumHub's real description, stack, and links. -->
+STADIUMHUB_DESCRIPTION
+
+| | |
+|:--|:--|
+| **Stack** | STADIUMHUB_STACK |
+| **Scale** | STADIUMHUB_SCALE |
+| **Performance** | STADIUMHUB_PERFORMANCE |
+| **Security** | STADIUMHUB_SECURITY |
+| **Impact** | STADIUMHUB_IMPACT |
+| **Repository** | STADIUMHUB_REPO_LINK |
+| **Live** | STADIUMHUB_LIVE_LINK |
+
+STADIUMHUB_EXPLANATION
+
+</details>
+
+<details>
+<summary><b>Motion Designer Portfolio — Freelance Client Site</b></summary>
+
+<br/>
+
+A polished, responsive portfolio site delivered for a freelance client (motion designer) with a focus on smooth presentation and fast media delivery.
+
+| | |
+|:--|:--|
+| **Stack** | React 18 · Vite 5 · CSS Modules · Cloudinary |
+| **Scale** | Multi-section single-page portfolio with optimized media gallery |
+| **Performance** | Cloudinary-backed asset pipeline for responsive, optimized media |
+| **Security** | Static deployment with managed delivery via Netlify CDN |
+| **Impact** | Shipped, client-facing freelance deliverable deployed to production |
+| **Repository** | [Salem-qahtani/abdelrhman-potofolio](https://github.com/Salem-qahtani/abdelrhman-potofolio) |
+| **Live** | <!-- >>> EDIT: add the Netlify live URL --> [Live Site](PORTFOLIO_LIVE_URL) |
+
+Built component-first with CSS Modules for scoped styling and Vite for a fast build pipeline, deployed on Netlify.
+
+</details>
 
 ---
 
-## 📫 Contact
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> Contribution Activity
 
-- **LinkedIn:** [Salem Al-Qahtani](https://www.linkedin.com/in/salem-al-qahtani-417369371/)
-- **GitHub:** [Salem-qahtani](https://github.com/Salem-qahtani)
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Salem-qahtani&bg_color=0D1117&color=A855F7&line=7C3AED&point=ffffff&area=true&area_color=6D28D9&hide_border=true&custom_title=Contribution%20Graph" alt="activity-graph" />
+
+</div>
+
+---
+
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> Contribution Snake
+
+<!-- Requires the Platane/snk GitHub Action committing to an `output` branch. -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Salem-qahtani/Salem-qahtani/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Salem-qahtani/Salem-qahtani/output/github-contribution-grid-snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/Salem-qahtani/Salem-qahtani/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
+## <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="28"> Current Focus
+
+```yaml
+Salem:
+  learning:
+    - Advanced TypeScript patterns & system design
+    - Scalable full-stack architecture
+  building:
+    - StadiumHub — wrapping up final touches
+    - Production-grade full-stack web applications
+  exploring:
+    - Real-time architectures & WebSockets
+    - Cloud deployment workflows (Railway, Cloudflare, Netlify)
+  open_to:
+    - Software Engineering Internships
+    - Full-Stack / Frontend roles
+    - Open-source collaboration & freelance projects
+```
+
+---
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> Connect
+
+<div align="center">
+
+<a href="mailto:EMAIL"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
+<a href="https://www.linkedin.com/in/salem-al-qahtani-417369371/"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
+<a href="https://github.com/Salem-qahtani"><img src="https://img.shields.io/badge/GitHub-1A1B27?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
+<a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" /></a>
+
+</div>
+
+---
+
+<div align="center">
+
+> *"Build it like it's already in production — clean, scalable, and built to last."*
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:7C3AED,100:6D28D9&height=140&section=footer" alt="footer" />
+
+</div>

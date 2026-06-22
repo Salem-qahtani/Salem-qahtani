@@ -45,7 +45,7 @@
 
 ---
 
-## <img src="./assets/cloud-code-icon.gif" width="28"> Tech Stack
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> Tech Stack
 
 **Languages**
 
@@ -112,7 +112,7 @@ Built component-first with CSS Modules for scoped styling and Vite for a fast bu
 
 ---
 
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> Contribution Activity
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> Contribution Activity
 
 <div align="center">
 
@@ -122,7 +122,7 @@ Built component-first with CSS Modules for scoped styling and Vite for a fast bu
 
 ---
 
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> Contribution Snake
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> Contribution Snake
 
 <!-- Requires the Platane/snk GitHub Action committing to an `output` branch. -->
 
@@ -138,7 +138,7 @@ Built component-first with CSS Modules for scoped styling and Vite for a fast bu
 
 ---
 
-## <img src="./assets/search-icon-white.gif" width="28"> Current Focus
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> Current Focus
 
 ```yaml
 Salem:
@@ -159,7 +159,7 @@ Salem:
 
 ---
 
-## <img src="./assets/globe-icon-white.gif" width="28"> Connect
+## Connect
 
 <div align="center">
 

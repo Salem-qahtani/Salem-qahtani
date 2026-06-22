@@ -1,10 +1,12 @@
 <!--
   GitHub Profile README — Salem Al-Qahtani (@Salem-qahtani)
-  Still to fill in (search for these tokens):
-    PORTFOLIO_URL, EMAIL    -> your portfolio link and email (header + Connect)
-    STADIUMHUB_*            -> StadiumHub description, stack, and links
-    PORTFOLIO_LIVE_URL      -> the Netlify live URL for the motion designer site
-  Note: the About section still mentions "Applied AI/ML" — keep or remove to match your real focus.
+  Still to fill in:
+    STADIUMHUB_*  -> StadiumHub description, stack, and links
+  Optional: the About section still mentions "Applied AI/ML" — keep or remove.
+
+  Portfolio button removed for now (no personal portfolio yet). To restore later
+  in the same style, re-add this to the header buttons and the Connect section:
+    <a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" /></a>
 -->
 
 <div align="center">
@@ -17,21 +19,20 @@
 
 <br/>
 
-![King Saud University](https://img.shields.io/badge/King_Saud_University-Software_Engineering-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=1A1B27)
-![Riyadh](https://img.shields.io/badge/Riyadh,_Saudi_Arabia-4F46E5?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1A1B27)
+<img src="https://img.shields.io/badge/King_Saud_University-Software_Engineering-6D28D9?style=for-the-badge&logo=googlescholar&logoColor=white&labelColor=1A1B27" alt="King Saud University - Software Engineering" />
+<img src="https://img.shields.io/badge/Riyadh,_Saudi_Arabia-4F46E5?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=1A1B27" alt="Riyadh, Saudi Arabia" />
 
-<br/>
+<br/><br/>
 
-<a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" /></a>
 <a href="https://www.linkedin.com/in/salem-al-qahtani-417369371/"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
-<a href="mailto:EMAIL"><img src="https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
+<a href="mailto:salem.aqahtani8@gmail.com"><img src="https://img.shields.io/badge/Email-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
 <a href="https://github.com/Salem-qahtani"><img src="https://img.shields.io/badge/GitHub-1A1B27?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
 
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> About
+## About
 
 > Software Engineering student at **King Saud University**, building production-grade, full-stack web applications with a product-engineering mindset.
 
@@ -44,9 +45,7 @@
 
 ---
 
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eor/giphy.gif" width="28"> Tech Stack
-
-<div align="center">
+## <img src="./assets/cloud-code-icon.gif" width="28"> Tech Stack
 
 **Languages**
 
@@ -63,8 +62,6 @@
 **Cloud, DevOps &amp; Tooling**
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=cloudflare,netlify,railway,git,github,linux,vscode&theme=dark" alt="devops" />
-
-</div>
 
 ---
 
@@ -107,7 +104,7 @@ A polished, responsive portfolio site delivered for a freelance client (motion d
 | **Security** | Static deployment with managed delivery via Netlify CDN |
 | **Impact** | Shipped, client-facing freelance deliverable deployed to production |
 | **Repository** | [Salem-qahtani/abdelrhman-potofolio](https://github.com/Salem-qahtani/abdelrhman-potofolio) |
-| **Live** | <!-- >>> EDIT: add the Netlify live URL --> [Live Site](PORTFOLIO_LIVE_URL) |
+| **Live** | [Live Site](https://abdelrhman-potofolio.netlify.app/) |
 
 Built component-first with CSS Modules for scoped styling and Vite for a fast build pipeline, deployed on Netlify.
 
@@ -141,7 +138,7 @@ Built component-first with CSS Modules for scoped styling and Vite for a fast bu
 
 ---
 
-## <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="28"> Current Focus
+## <img src="./assets/search-icon-white.gif" width="28"> Current Focus
 
 ```yaml
 Salem:
@@ -162,14 +159,13 @@ Salem:
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"> Connect
+## <img src="./assets/globe-icon-white.gif" width="28"> Connect
 
 <div align="center">
 
-<a href="mailto:EMAIL"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
+<a href="mailto:salem.aqahtani8@gmail.com"><img src="https://img.shields.io/badge/Gmail-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail" /></a>
 <a href="https://www.linkedin.com/in/salem-al-qahtani-417369371/"><img src="https://img.shields.io/badge/LinkedIn-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" /></a>
 <a href="https://github.com/Salem-qahtani"><img src="https://img.shields.io/badge/GitHub-1A1B27?style=for-the-badge&logo=github&logoColor=white" alt="github" /></a>
-<a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" /></a>
 
 </div>
 

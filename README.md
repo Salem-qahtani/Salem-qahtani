@@ -1,12 +1,12 @@
 <!--
   GitHub Profile README — Salem Al-Qahtani (@Salem-qahtani)
-  Still to fill in:
-    STADIUMHUB_*  -> StadiumHub description, stack, and links
-  Optional: the About section still mentions "Applied AI/ML" — keep or remove.
 
   Portfolio button removed for now (no personal portfolio yet). To restore later
   in the same style, re-add this to the header buttons and the Connect section:
     <a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" /></a>
+
+  Note: StadiumHub repo is currently private — the repo link will 404 for visitors
+  until you flip it public. Live link set to "coming soon" until Railway deploy is up.
 -->
 
 <div align="center">
@@ -37,11 +37,11 @@
 > Software Engineering student at **King Saud University**, building production-grade, full-stack web applications with a product-engineering mindset.
 
 - **Software engineering first** — I care about clean architecture, maintainable systems, and code that scales beyond the demo.
-- **Full-stack development** — end-to-end ownership across modern React / Next.js frontends and real-time TypeScript backends.
-- **Real-time & product engineering** — multiplayer systems, state synchronization, auth, and persistence designed for real users, not just localhost.
-- **Applied AI/ML** — actively expanding into applied machine learning and AI-assisted product features.
+- **Full-stack development** — end-to-end ownership across modern React / TypeScript frontends and type-safe Express + TypeScript backends.
+- **Real-time & product engineering** — WebSocket messaging, transactional booking flows, auth, and persistence designed for real users, not just localhost.
+- **Data & backend architecture** — relational data modeling with PostgreSQL + Prisma, JWT-based auth, and server-side role & ownership enforcement.
 
-**Open To** &nbsp;·&nbsp; Software Engineering Internships &nbsp;·&nbsp; Full-Stack / Frontend Roles &nbsp;·&nbsp; Open-Source Collaboration &nbsp;·&nbsp; Freelance Web Projects
+**Open To** &nbsp;·&nbsp; Software Engineering Internships &nbsp;·&nbsp; Full-Stack / Backend / Frontend Roles &nbsp;·&nbsp; Open-Source Collaboration &nbsp;·&nbsp; Freelance Web Projects
 
 ---
 
@@ -68,24 +68,23 @@
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> Featured Projects
 
 <details open>
-<summary><b>StadiumHub — STADIUMHUB_TAGLINE</b></summary>
+<summary><b>StadiumHub — Full-Stack Stadium Reservation Platform</b></summary>
 
 <br/>
 
-<!-- >>> EDIT: replace the bracketed fields with StadiumHub's real description, stack, and links. -->
-STADIUMHUB_DESCRIPTION
+A full-stack platform that connects stadium **owners** with match **organizers**. Owners list their stadiums and open time slots; organizers browse availability and book reservations. Rebuilt from the ground up and significantly extended from a prior university team project — with full solo ownership of both the frontend and backend.
 
 | | |
 |:--|:--|
-| **Stack** | STADIUMHUB_STACK |
-| **Scale** | STADIUMHUB_SCALE |
-| **Performance** | STADIUMHUB_PERFORMANCE |
-| **Security** | STADIUMHUB_SECURITY |
-| **Impact** | STADIUMHUB_IMPACT |
-| **Repository** | STADIUMHUB_REPO_LINK |
-| **Live** | STADIUMHUB_LIVE_LINK |
+| **Stack** | React · TypeScript · Vite (frontend) · Express · TypeScript (backend) · PostgreSQL 17 · Prisma 7 (`@prisma/adapter-pg`) · JWT · Socket.io |
+| **Scale** | Two-role system (owner / organizer) · 4 core models (User, Stadium, Slot, Reservation) · full CRUD across stadiums, slots & reservations |
+| **Performance** | Transaction-based concurrency control to prevent double-booking · date-windowed slot queries (next 7 days, past slots filtered out) |
+| **Security** | bcrypt password hashing · JWT auth with `protect` middleware · server-side role + ownership verification on every protected route |
+| **Impact** | Solo from-scratch rebuild — migrated MongoDB → PostgreSQL and JavaScript → TypeScript to deepen backend and type-safety fundamentals |
+| **Repository** | [Salem-qahtani/StadiumHub](https://github.com/Salem-qahtani/StadiumHub) *(private)* |
+| **Live** | Deploying to Railway — coming soon |
 
-STADIUMHUB_EXPLANATION
+Designed around two user roles that drive the entire data model. Every protected controller follows a consistent **role-check → lookup → ownership-verification** pattern, and reservations use database transactions to safely handle concurrent bookings. Real-time owner–organizer messaging via **Socket.io** is the next major feature, with messages persisted through Prisma.
 
 </details>
 
@@ -143,17 +142,18 @@ Built component-first with CSS Modules for scoped styling and Vite for a fast bu
 ```yaml
 Salem:
   learning:
+    - Socket.io & real-time messaging architecture
     - Advanced TypeScript patterns & system design
-    - Scalable full-stack architecture
   building:
-    - StadiumHub — wrapping up final touches
-    - Production-grade full-stack web applications
+    - StadiumHub — real-time messaging + owner & organizer dashboards
+    - Digital Deal — a real-time multiplayer card game
+    - Railway deployment (full-stack)
   exploring:
-    - Real-time architectures & WebSockets
-    - Cloud deployment workflows (Railway, Cloudflare, Netlify)
+    - WebSockets & real-time state synchronization
+    - Advanced TypeScript patterns & system design
   open_to:
     - Software Engineering Internships
-    - Full-Stack / Frontend roles
+    - Full-Stack / Backend / Frontend roles
     - Open-source collaboration & freelance projects
 ```
 

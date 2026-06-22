@@ -51,13 +51,13 @@
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=java,js,ts&theme=dark" alt="languages" />
 
-**Frontend**
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=react,vite,html,css&theme=dark" alt="frontend" />
-
 **Backend &amp; Databases**
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,postgres,mysql&theme=dark" alt="backend" />
+
+**Frontend**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=react,vite,html,css&theme=dark" alt="frontend" />
 
 **Cloud, DevOps &amp; Tooling**
 

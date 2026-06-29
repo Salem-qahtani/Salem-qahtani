@@ -5,8 +5,8 @@
   in the same style, re-add this to the header buttons and the Connect section:
     <a href="PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="portfolio" /></a>
 
-  Note: StadiumHub repo is currently private — the repo link will 404 for visitors
-  until you flip it public. Live link set to "coming soon" until Railway deploy is up.
+  Note: StadiumHub is live at https://stadiumhubs.com. Make sure the StadiumHub
+  repo is PUBLIC, or the repository link will 404 for visitors.
 -->
 
 <div align="center">
@@ -72,19 +72,19 @@
 
 <br/>
 
-A full-stack platform that connects stadium **owners** with match **organizers**. Owners list their stadiums and open time slots; organizers browse availability and book reservations. Rebuilt from the ground up and significantly extended from a prior university team project — with full solo ownership of both the frontend and backend.
+A two-sided booking platform that connects stadium **owners** with match **organizers**. Owners publish stadiums and dated time slots; organizers browse availability and reserve them; both parties chat in real time. Built as a full-stack TypeScript monorepo and deployed live on Railway.
 
 | | |
 |:--|:--|
-| **Stack** | React · TypeScript · Vite (frontend) · Express · TypeScript (backend) · PostgreSQL 17 · Prisma 7 (`@prisma/adapter-pg`) · JWT · Socket.io |
-| **Scale** | Two-role system (owner / organizer) · 4 core models (User, Stadium, Slot, Reservation) · full CRUD across stadiums, slots & reservations |
-| **Performance** | Transaction-based concurrency control to prevent double-booking · date-windowed slot queries (next 7 days, past slots filtered out) |
-| **Security** | bcrypt password hashing · JWT auth with `protect` middleware · server-side role + ownership verification on every protected route |
-| **Impact** | Solo from-scratch rebuild — migrated MongoDB → PostgreSQL and JavaScript → TypeScript to deepen backend and type-safety fundamentals |
-| **Repository** | [Salem-qahtani/StadiumHub](https://github.com/Salem-qahtani/StadiumHub) *(private)* |
-| **Live** | Deploying to Railway — coming soon |
+| **Stack** | React 19 · TypeScript · Vite 8 (client) · Express 5 · Socket.IO · Prisma 7 · PostgreSQL (`@prisma/adapter-pg`) · JWT · bcrypt · Cloudinary · Railway |
+| **Scale** | Two-role system (owner / organizer) · 6 data models (User, Stadium, Slot, Reservation, Conversation, Message) · full CRUD across stadiums, slots & reservations |
+| **Performance** | Race-safe booking — atomic `updateMany` slot claims inside `prisma.$transaction`, returning `409` on a lost race so two organizers can never double-book |
+| **Security** | bcrypt password hashing · JWT `protect` middleware · server-side role + ownership checks on every protected route · per-IP rate limiting (10 / 15 min) · validated image uploads (max 6 files, 5 MB each) |
+| **Impact** | Solo full-stack build deployed live across 3 Railway services (PostgreSQL + Express API + Vite SPA), with real-time Socket.IO messaging persisted through Prisma |
+| **Repository** | [Salem-qahtani/StadiumHub](https://github.com/Salem-qahtani/StadiumHub) |
+| **Live** | [stadiumhubs.com](https://stadiumhubs.com) |
 
-Designed around two user roles that drive the entire data model. Every protected controller follows a consistent **role-check → lookup → ownership-verification** pattern, and reservations use database transactions to safely handle concurrent bookings. Real-time owner–organizer messaging via **Socket.io** is the next major feature, with messages persisted through Prisma.
+Architected around two roles that drive the entire data model. Every protected controller follows a consistent **role-check → lookup → ownership-verification** pattern, and reservations run inside database transactions for safe concurrent booking. A Socket.IO singleton mirrors the REST JWT auth — authorizing room membership before delivering live owner-to-organizer messages — while images are offloaded to Cloudinary and only their URLs persisted.
 
 </details>
 
@@ -145,12 +145,11 @@ Salem:
     - Socket.io & real-time messaging architecture
     - Advanced TypeScript patterns & system design
   building:
-    - StadiumHub — real-time messaging + owner & organizer dashboards
+    - StadiumHub — owner & organizer dashboards and feature polish
     - Digital Deal — a real-time multiplayer card game
-    - Railway deployment (full-stack)
   exploring:
     - WebSockets & real-time state synchronization
-    - Advanced TypeScript patterns & system design
+    - Scalable full-stack architecture & deployment workflows
   open_to:
     - Software Engineering Internships
     - Full-Stack / Backend / Frontend roles

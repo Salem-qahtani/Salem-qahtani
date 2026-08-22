@@ -7,6 +7,11 @@
 
   Note: StadiumHub is live at https://stadiumhubs.com. Make sure the StadiumHub
   repo is PUBLIC, or the repository link will 404 for visitors.
+
+  Note: RateWave is live at https://ratewave.net but its repo is PRIVATE, so no
+  repository link is shown. If the repo is made public, add this row to the
+  RateWave table:
+    | **Repository** | [Salem-qahtani/RateWave](https://github.com/Salem-qahtani/RateWave) |
 -->
 
 <div align="center">
@@ -51,13 +56,13 @@
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=java,js,ts&theme=dark" alt="languages" />
 
-**Backend &amp; Databases**
-
-<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,postgres,mysql&theme=dark" alt="backend" />
-
 **Frontend**
 
 <img src="https://go-skill-icons.vercel.app/api/icons?i=react,vite,html,css&theme=dark" alt="frontend" />
+
+**Backend &amp; Databases**
+
+<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,nextjs,prisma,postgres,mysql&theme=dark" alt="backend" />
 
 **Cloud, DevOps &amp; Tooling**
 
@@ -68,6 +73,26 @@
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> Featured Projects
 
 <details open>
+<summary><b>RateWave — Unified Rating Platform for Games, TV &amp; Film</b></summary>
+
+<br/>
+
+A social rating platform that unifies three media types normally split across separate sites. Users rate any game, show, or movie 0.5–10 with an optional public comment, keep a watchlist, and follow other raters — seeing both the community score and the score among people they follow. Built as a full-stack Next.js application with a dual-provider catalog, and deployed live behind Cloudflare.
+
+| | |
+|:--|:--|
+| **Stack** | Next.js (App Router, Turbopack) · TypeScript (strict) · Prisma · PostgreSQL · Auth.js · Zod · Cloudinary · Resend · Sentry · Railway · Cloudflare Workers · Vitest · Playwright |
+| **Scale** | 8 Prisma models + 4 enums over one polymorphic `Title` table · dual-provider catalog (IGDB + TMDB) normalized to a single shape · three-role moderation system with a full audit trail |
+| **Performance** | Postgres `Title` cache in front of both provider APIs so repeat views never re-hit the network · sliding-window outbound rate limiter respecting IGDB's 4 req/sec cap · per-request memoized community scores · in-process `node-cron` catalog refresh |
+| **Security** | bcrypt + `passwordChangedAt` JWT revocation (a password change kills every live session) · 6-digit OTP signup with durable brute-force lockout · rank-based authorization read fresh from the DB on every admin request · OWNER-floor password re-confirmation on irreversible actions · Cloudflare origin secret-header guard · magic-byte upload sniffing · strict CSP + HSTS |
+| **Impact** | Solo full-stack build, live in beta · CI-gated deploys (lint · typecheck · server/client boundary · injection · unit · e2e · Railway-parity build) · full SEO surface with sitemap, JSON-LD, and per-page metadata |
+| **Live** | [ratewave.net](https://ratewave.net) |
+
+Architected around a hard `server/` ↔ `components/` split that CI enforces with a static scan, since Turbopack won't reject a `server-only` import at build time. Provider credentials never leave the server layer: IGDB and TMDB are reached through a single gateway with OAuth token management, adult-content filtering, and outbound throttling, then read through a Postgres cache populated on first engagement. Moderation authorization is two ANDed gates — a per-action role floor plus a strict-outrank check — re-evaluated server-side on every request rather than trusted from the JWT.
+
+</details>
+
+<details>
 <summary><b>StadiumHub — Full-Stack Stadium Reservation Platform</b></summary>
 
 <br/>
@@ -140,20 +165,18 @@ Built component-first with CSS Modules for scoped styling and Vite for a fast bu
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> Current Focus
 
 ```yaml
-Salem:
-  learning:
-    - Socket.io & real-time messaging architecture
-    - Advanced TypeScript patterns & system design
-  building:
-    - StadiumHub — owner & organizer dashboards and feature polish
-    - Digital Deal — a real-time multiplayer card game
-  exploring:
-    - WebSockets & real-time state synchronization
-    - Scalable full-stack architecture & deployment workflows
-  open_to:
-    - Software Engineering Internships
-    - Full-Stack / Backend / Frontend roles
-    - Open-source collaboration & freelance projects
+learning:
+  - System design & scalable application architecture
+  - Application security & secure-by-default engineering
+building_and_maintaining:
+  - RateWave — unified rating platform for games, TV & film
+exploring:
+  - Mobile development
+  - UI/UX design & interface craft
+open_to:
+  - Software Engineering Internships
+  - Full-Stack / Backend / Frontend roles
+  - Open-source collaboration & freelance projects
 ```
 
 ---

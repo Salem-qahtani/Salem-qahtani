@@ -140,7 +140,7 @@ Built component-first with CSS Modules for scoped styling and Vite for a fast bu
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Salem-qahtani&bg_color=0D1117&color=A855F7&line=7C3AED&point=ffffff&area=true&area_color=6D28D9&hide_border=true&custom_title=Contribution%20Graph" alt="activity-graph" />
+<img width="100%" src="https://activity-graph.vercel.app/graph?username=Salem-qahtani&bg_color=0D1117&color=A855F7&line=7C3AED&point=ffffff&area=true&area_color=6D28D9&hide_border=true&custom_title=Contribution%20Graph" alt="activity-graph" />
 
 </div>
 

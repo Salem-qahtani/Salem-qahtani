@@ -54,19 +54,19 @@
 
 **Languages**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=java,js,ts&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=java,js,ts&theme=dark" alt="languages" />
 
 **Frontend**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=react,vite,html,css&theme=dark" alt="frontend" />
+<img src="https://skillicons.dev/icons?i=react,vite,html,css&theme=dark" alt="frontend" />
 
 **Backend &amp; Databases**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,nextjs,prisma,postgres,mysql&theme=dark" alt="backend" />
+<img src="https://skillicons.dev/icons?i=nodejs,nextjs,prisma,postgres,mysql&theme=dark" alt="backend" />
 
 **Cloud, DevOps &amp; Tooling**
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=cloudflare,netlify,railway,git,github,linux,vscode&theme=dark" alt="devops" />
+<img src="https://skillicons.dev/icons?i=cloudflare,netlify,git,github,linux,vscode&theme=dark" alt="devops" />
 
 ---
 

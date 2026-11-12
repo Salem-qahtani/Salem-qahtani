@@ -52,10 +52,6 @@
 
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"> Tech Stack
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=java,js,ts,kotlin,flutter&theme=dark" alt="languages" />
-
 **Frontend**
 
 <img src="https://skillicons.dev/icons?i=react,vite,html,css&theme=dark" alt="frontend" />
@@ -67,6 +63,10 @@
 **Cloud, DevOps &amp; Tooling**
 
 <img src="https://skillicons.dev/icons?i=cloudflare,netlify,git,github,linux,vscode&theme=dark" alt="devops" />
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=java,js,ts,kotlin,dart,flutter&theme=dark" alt="languages" />
 
 ---
 

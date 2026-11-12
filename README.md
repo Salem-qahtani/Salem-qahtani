@@ -54,7 +54,7 @@
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=java,js,ts&theme=dark" alt="languages" />
+<img src="https://skillicons.dev/icons?i=java,js,ts,kotlin,flutter&theme=dark" alt="languages" />
 
 **Frontend**
 
